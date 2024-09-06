@@ -121,4 +121,27 @@
   .leftProfile{
     margin-left: 1px;
   }
+  .edit-details {
+    width: 100%;  
+    gap: 0.5rem; 
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+
+  .form-group label {
+    width: auto; 
+    margin-right: 0;  
+    margin-bottom: 0.5rem;
+  }
+
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
 }
