@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const base_url = 'https://profilebackend-z1c9.onrender.com/';
+const base_url = 'https://profilebackend-z1c9.onrender.com';
 
 
 const getToken = () => {
